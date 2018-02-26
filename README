@@ -1,0 +1,10 @@
+Bienvenue ! Si vous êtes ici, c'est que vous souhaitez apprendre le Python, alors suivez le guide :
+Pré-requis : connaître les concepts basiques de programmation (et idéalement le Java), car on ne reviendra pas dessus
+
+1) Téléchargez et installez Python
+2) Ouvrez une fenêtre de commande, allez dans le répertoire de ce projet et tapez
+    pip install flask
+    python server.py
+3) Rendez-vous sur http://localhost:5000/pages/introduction pour commencer ! Bonne chance !
+
+PS : n'ouvrez pas le fichier top_secret, il nous servira pour plus tard :)

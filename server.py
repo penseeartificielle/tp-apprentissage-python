@@ -524,7 +524,7 @@ def get_exercice(code):
                 if request.form['message'] == '5913':
                     return jsonify(response="Bravo c'était ça ! Passons à la page 'dico' !", mdp="ez_")
             elif code == 'liste':
-                if request.form['message'] == 'pmi sulp el( seriannoitcides de caractères, listes et':
+                if request.form['message'] == 'pmi sulp el( seriannoitcid es de caractères, listes et':
                     return jsonify(response="Bien joué, ce n'était pas évident ce coup-ci !", mdp="ter")    
             elif code == 'dico':
                 phrase = "PPGA (Python Programing Game Adventure), créé en 42 minutes (ou pas), m'a rendu apte à faire de la data science et de l'intelligence artificielle en Python... En tout cas, on l'espère !"
